@@ -63,12 +63,6 @@ return {
     },
   },
 
-  {
-    "ibhagwan/fzf-lua",
-    dependencies = { "nvim_tree/nvim-web-devicons" },
-    opts = {},
-  },
-
   -- add pyright to lspconfig
   {
     "neovim/nvim-lspconfig",
