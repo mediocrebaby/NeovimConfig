@@ -3,4 +3,4 @@
 -- Add any additional keymaps here
 
 local map = vim.keymap.set
-map("n", "<leader>e", ":lua MiniFiles.open()<cr>", { desc = "Triggle Mini Files" })
+map("n", "<leader>e", ":lua MiniFiles.open(vim.api.nvim_buf_get_name(0))<cr>", { desc = "Triggle Mini Files" })

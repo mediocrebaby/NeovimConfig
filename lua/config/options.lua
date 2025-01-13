@@ -4,5 +4,4 @@
 
 vim.opt.spell = false
 vim.opt.wrap = false
-vim.opt.relativenumber = false
 vim.opt.conceallevel = 0
