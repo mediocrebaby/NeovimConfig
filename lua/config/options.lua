@@ -4,4 +4,4 @@
 
 vim.opt.spell = false
 vim.opt.wrap = false
-vim.opt.conceallevel = 0
+vim.opt.conceallevel = 2

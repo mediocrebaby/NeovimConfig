@@ -5,4 +5,5 @@
 if not vim.g.vscode then
   local map = vim.keymap.set
   map("n", "<leader>e", ":lua MiniFiles.open(vim.api.nvim_buf_get_name(0))<cr>", { desc = "Triggle Mini Files" })
+  map("n", "<leader>os", ":ObsidianQuickSwitch<cr>", { desc = "Quick Switch Ohter Note In Obsidian Vault" })
 end
