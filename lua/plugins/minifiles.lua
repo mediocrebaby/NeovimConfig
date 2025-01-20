@@ -1,3 +1,4 @@
-if not vim.g.vscode then
-  return { "echasnovski/mini.files", version = "*" }
+if vim.g.vscode then
+  return {}
 end
+return { "echasnovski/mini.files", version = "*" }
