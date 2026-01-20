@@ -4,10 +4,5 @@
 
 if not vim.g.vscode then
   local map = vim.keymap.set
-  map(
-    "n",
-    "<leader>e",
-    ":lua MiniFiles.open(vim.api.nvim_buf_get_name(0))<cr>",
-    { desc = "Triggle Mini Files", noremap = true, silent = true }
-  )
+  map("n", "<leader>e", "<cmd>Neotree toggle<cr>", { desc = "Explorer (Neo-tree)", noremap = true, silent = true })
 end
