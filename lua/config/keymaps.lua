@@ -3,4 +3,4 @@
 -- Add any additional keymaps here
 
 local map = vim.keymap.set
-map("n", "<leader>e", ":Oil<CR>", { desc = "Triggle Oil Files" })
+map("n", "<leader>e", ":Oil<CR>", { desc = "Triggle Oil Files", noremap = true, silent = true })
