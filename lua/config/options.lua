@@ -6,3 +6,4 @@ vim.opt.spell = false
 vim.opt.wrap = false
 vim.opt.conceallevel = 0
 vim.o.shell = "pwsh"
+vim.g.autoformat = false -- 关闭代码自动格式化
