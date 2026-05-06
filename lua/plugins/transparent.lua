@@ -5,17 +5,9 @@ return {
   opts = {
     extra_groups = {
       "NormalFloat",
-      "NvimTreeNormal",
-      "NeoTreeNormal",
-      "NeoTreeNormalNC",
-      "TelescopeNormal",
-      "TelescopeBorder",
-      "WhichKeyFloat",
-      "LazyNormal",
-      "MasonNormal",
-      "NotifyBackground",
+      "WhichKeyNormal",
+      "FzfLuaNormal",
       "SnacksDashboardNormal",
-      "SnacksPickerNormal",
     },
   },
   config = function(_, opts)
